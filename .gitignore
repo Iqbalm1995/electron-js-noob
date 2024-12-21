@@ -1,0 +1,81 @@
+# Node modules (dependencies)
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime files
+.pids
+*.pid
+*.pid.lock
+
+# Compiled output (build artifacts)
+dist/
+dist_electron/
+out/
+build/
+release/
+temp/
+
+# Vite and build-related files
+.vite/
+.cache/
+.vscode/
+.eslintcache
+
+# Debugger configurations
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Coverage directory used by tools like istanbul/jest
+coverage/
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Electron specific
+*.asar
+*.asar.unpacked/
+*.bak
+package-lock.json
+yarn.lock
+
+# Environment files
+# .env
+# .env.local
+# .env.*.local
+
+# Electron forge and builder output
+out/
+app/out/
+app/dist/
+app/node_modules/
+app/package-lock.json
+app/yarn.lock
+forge.config.js
+
+# Vite specific
+assets/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.backup
+*.swp
+
+# Visual Studio Code settings folder
+.vscode/
+
+# npm and yarn errors
+npm-debug.log*
+yarn-debug.log*
